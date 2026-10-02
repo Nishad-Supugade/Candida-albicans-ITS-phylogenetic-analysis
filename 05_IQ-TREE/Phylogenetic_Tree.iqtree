@@ -1,0 +1,396 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Input file name: C:\iqtree-2.4.0-Windows\Phylogenetic_Tree_mini_Project_Alignment_fixed.nexus
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 643004
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 45 sequences with 612 nucleotide sites
+Number of constant sites: 281 (= 45.915% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 281 (= 45.915% of all sites)
+Number of parsimony informative sites: 177
+Number of distinct site patterns: 307
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TPM2u+F+R2
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TPM2u+F+R2        -4114.882    8401.763 - 0.000642    8430.266 -  0.00308    8781.602 +    0.445
+TVM+F+R2          -4109.416    8394.832 -   0.0206    8424.782 -   0.0478    8783.504 +    0.172
+TPM2u+F+R3        -4109.677    8395.353 -   0.0158    8425.303 -   0.0368    8784.026 +    0.132
+TIM2+F+R2         -4112.930    8399.859 -  0.00166    8429.080 -  0.00557    8784.115 +    0.127
+TVM+F+R3          -4104.579    8389.157 +    0.351    8420.597 +    0.387    8786.663 -   0.0354
+GTR+F+R2          -4107.850    8393.699 -   0.0362    8424.389 +   0.0581    8786.788 -   0.0333
+TIM2+F+R3         -4108.090    8394.179 -   0.0285    8424.869 -   0.0457    8787.268 -   0.0262
+TPM2u+F+I+R2      -4115.262    8404.523 - 0.000162    8433.745 - 0.000541    8788.779 -   0.0123
+GTR+F+R3          -4103.176    8388.352 +    0.525    8420.552 +    0.396    8790.274 -  0.00582
+K3Pu+F+R2         -4119.750    8411.500 - 4.94e-006    8440.003 - 2.36e-005    8791.339 -  0.00342
+TVM+F+I+R2        -4110.237    8398.473 -  0.00333    8429.163 -  0.00534    8791.563 -  0.00306
+TIM2+F+I+R2       -4113.655    8403.309 - 0.000297    8433.260 - 0.000689    8791.982 -  0.00248
+TIM+F+R2          -4117.436    8408.873 - 1.84e-005    8438.094 - 6.14e-005    8793.129 -   0.0014
+GTR+F+I+R2        -4108.502    8397.004 -  0.00694    8428.443 -  0.00766    8794.510 -   0.0007
+K3Pu+F+R3         -4115.225    8406.450 - 6.17e-005    8436.400 - 0.000143    8795.122 - 0.000515
+TIM+F+R3          -4113.480    8404.960 -  0.00013    8435.649 - 0.000209    8798.049 - 0.000119
+K3Pu+F+I+R2       -4120.472    8414.943 - 8.83e-007    8444.165 - 2.95e-006    8799.199 - 6.71e-005
+GTR+F+G4          -4118.455    8412.911 - 2.44e-006    8442.861 - 5.67e-006    8801.583 - 2.04e-005
+TIM+F+I+R2        -4118.499    8412.998 - 2.33e-006    8442.948 - 5.42e-006    8801.671 - 1.95e-005
+GTR+F+I+R3        -4106.163    8396.326 -  0.00974    8429.297 -    0.005    8802.665 - 1.19e-005
+HKY+F+R2          -4128.724    8427.448 - 1.7e-009    8455.243 - 1.16e-008    8802.871 - 1.07e-005
+TN+F+R2           -4126.533    8425.067 - 5.59e-009    8453.569 - 2.68e-008    8804.906 - 3.87e-006
+HKY+F+R3          -4123.514    8421.029 - 4.21e-008    8450.250 - 1.41e-007    8805.284 - 3.2e-006
+TPM3u+F+R2        -4127.067    8426.135 - 3.28e-009    8454.638 - 1.57e-008    8805.974 - 2.27e-006
+GTR+F+I+G4        -4118.273    8414.547 - 1.08e-006    8445.236 - 1.73e-006    8807.636 - 9.88e-007
+TIM3+F+R2         -4124.817    8423.634 - 1.14e-008    8452.855 - 3.83e-008    8807.890 - 8.7e-007
+TPM3u+F+R3        -4121.863    8419.726 - 8.08e-008    8449.676 - 1.88e-007    8808.398 - 6.75e-007
+TN+F+R3           -4121.871    8419.741 - 8.02e-008    8449.692 - 1.86e-007    8808.414 - 6.7e-007
+HKY+F+I+R2        -4129.413    8430.825 - 3.14e-010    8459.328 - 1.5e-009    8810.664 - 2.17e-007
+TIM3+F+R3         -4120.231    8418.462 - 1.52e-007    8449.151 - 2.44e-007    8811.551 - 1.4e-007
+TN+F+I+R2         -4127.327    8428.654 - 9.3e-010    8457.875 - 3.11e-009    8812.910 - 7.07e-008
+TPM3u+F+I+R2      -4128.120    8430.239 - 4.21e-010    8459.461 - 1.41e-009    8814.495 - 3.2e-008
+TIM3+F+I+R2       -4126.395    8428.790 - 8.69e-010    8458.741 - 2.02e-009    8817.463 - 7.26e-009
+SYM+R2            -4144.836    8461.672 - 6.29e-017    8490.175 - 3.01e-016    8841.511 - 4.35e-014
+TVMe+R2           -4148.649    8467.298 - 3.78e-018    8495.093 - 2.58e-017    8842.720 - 2.38e-014
+TVMe+R3           -4142.647    8459.294 - 2.07e-016    8488.515 - 6.91e-016    8843.549 - 1.57e-014
+SYM+R3            -4139.558    8455.116 - 1.67e-015    8485.066 - 3.88e-015    8843.788 - 1.39e-014
+SYM+I+R2          -4144.691    8463.382 - 2.68e-017    8492.603 - 8.95e-017    8847.638 - 2.03e-015
+TVMe+I+R2         -4148.258    8468.516 - 2.05e-018    8497.019 - 9.84e-018    8848.355 - 1.42e-015
+TIM2e+R2          -4157.730    8483.459 - 1.17e-021    8510.556 - 1.13e-020    8854.465 - 6.7e-017
+F81+F+R2          -4158.216    8484.431 - 7.19e-022    8511.528 - 6.96e-021    8855.437 - 4.12e-017
+TPM2+R2           -4161.443    8488.887 - 7.75e-023    8515.296 - 1.06e-021    8855.476 - 4.04e-017
+TPM2+R3           -4155.526    8481.053 - 3.89e-021    8508.847 - 2.66e-020    8856.475 - 2.45e-017
+TIM2e+R3          -4152.515    8477.030 - 2.91e-020    8505.532 - 1.39e-019    8856.868 - 2.01e-017
+F81+F+R3          -4153.697    8479.393 - 8.93e-021    8507.896 - 4.28e-020    8859.232 - 6.18e-018
+TIM2e+I+R2        -4157.995    8485.989 - 3.3e-022    8513.784 - 2.25e-021    8861.412 - 2.08e-018
+TPM2+I+R2         -4161.381    8490.761 - 3.03e-023    8517.858 - 2.94e-022    8861.767 - 1.74e-018
+F81+F+I+R2        -4158.580    8487.160 - 1.84e-022    8514.955 - 1.25e-021    8862.582 - 1.16e-018
+TIMe+R2           -4169.928    8507.855 - 5.89e-027    8534.952 - 5.7e-026    8878.861 - 3.38e-022
+K3P+R2            -4174.263    8514.526 - 2.1e-028    8540.935 - 2.86e-027    8881.114 - 1.09e-022
+TIMe+R3           -4167.104    8506.208 - 1.34e-026    8534.710 - 6.43e-026    8886.047 - 9.29e-024
+K3P+R3            -4170.804    8511.609 - 9.02e-028    8539.403 - 6.16e-027    8887.031 - 5.68e-024
+TIMe+I+R2         -4170.805    8511.609 - 9.02e-028    8539.404 - 6.15e-027    8887.032 - 5.68e-024
+K3P+I+R2          -4174.868    8517.737 - 4.21e-029    8544.834 - 4.08e-028    8888.742 - 2.41e-024
+TIM3e+R2          -4177.344    8522.687 - 3.54e-030    8549.784 - 3.43e-029    8893.693 - 2.03e-025
+TPM3+R2           -4181.883    8529.766 - 1.03e-031    8556.175 - 1.4e-030    8896.355 - 5.37e-026
+TIM3e+R3          -4173.313    8518.625 - 2.7e-029    8547.128 - 1.29e-028    8898.464 - 1.87e-026
+TPM3+R3           -4177.165    8524.330 - 1.56e-030    8552.125 - 1.06e-029    8899.752 - 9.82e-027
+TNe+R2            -4184.639    8535.279 - 6.54e-033    8561.688 - 8.92e-032    8901.867 - 3.41e-027
+TIM3e+I+R2        -4178.349    8526.697 - 4.77e-031    8554.492 - 3.26e-030    8902.120 - 3.01e-027
+K2P+R2            -4188.986    8541.972 - 2.3e-034    8567.704 - 4.41e-033    8904.144 - 1.09e-027
+TPM3+I+R2         -4182.613    8533.226 - 1.82e-032    8560.322 - 1.77e-031    8904.231 - 1.05e-027
+TNe+R3            -4181.178    8532.356 - 2.82e-032    8560.150 - 1.92e-031    8907.778 - 1.78e-028
+K2P+R3            -4184.860    8537.721 - 1.93e-033    8564.817 - 1.87e-032    8908.726 - 1.1e-028
+TNe+I+R2          -4185.330    8538.660 - 1.21e-033    8565.756 - 1.17e-032    8909.665 - 6.91e-029
+K2P+I+R2          -4189.573    8545.146 - 4.71e-035    8571.555 - 6.42e-034    8911.735 - 2.45e-029
+JC+R2             -4214.121    8590.243 - 7.59e-045    8615.307 - 2.03e-043    8947.998 - 3.28e-037
+JC+R3             -4210.502    8587.003 - 3.83e-044    8613.412 - 5.23e-043    8953.592 -   2e-038
+JC+I+R2           -4214.488    8592.975 - 1.93e-045    8618.707 - 3.71e-044    8955.147 - 9.19e-039
+GTR+F+I           -4340.644    8857.288 - 7.8e-103    8887.238 - 1.81e-102    9245.961 - 6.51e-102
+GTR+F             -4522.977    9219.953 - 1.38e-181    9249.175 - 4.62e-181    9604.209 - 1.05e-179
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TPM2u+F+R2
+
+Rate parameter R:
+
+  A-C: 2.1780
+  A-G: 3.3855
+  A-T: 2.1780
+  C-G: 1.0000
+  C-T: 3.3855
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.277
+  pi(C) = 0.2078
+  pi(G) = 0.2
+  pi(T) = 0.3152
+
+Rate matrix Q:
+
+  A    -1.095    0.2728    0.4082    0.4139
+  C    0.3637    -1.128    0.1206    0.6434
+  G    0.5653    0.1252   -0.8806      0.19
+  T    0.3637     0.424    0.1206   -0.9083
+
+Model of rate heterogeneity: FreeRate with 2 categories
+Site proportion and rates:  (0.687,0.0868) (0.313,3.005)
+
+ Category  Relative_rate  Proportion
+  1         0.0868         0.687
+  2         3.005          0.313
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -4113.1893 (s.e. 160.8816)
+Unconstrained log-likelihood (without tree): -3048.8714
+Number of free parameters (#branches + #model parameters): 86
+Akaike information criterion (AIC) score: 8398.3786
+Corrected Akaike information criterion (AICc) score: 8426.8815
+Bayesian information criterion (BIC) score: 8778.2176
+
+Total tree length (sum of branch lengths): 8.6922
+Sum of internal branch lengths: 1.1088 (12.7561% of tree length)
+
+WARNING: 12 near-zero internal branches (<0.0016) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'HQ876043.1_Candida_albicans_strain_ATCC_18804' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++**HQ876043.1_Candida_albicans_strain_ATCC_18804
+|
++**JN882343.1_4-498_Candida_albicans_strain_NRRL_Y-12983
+|
+|              +**NR_138276.1_19-512_Candida_africana_CBS_8781
+|           +**| (95)
+|           |  +**AY342214.1_19-512_Candida_africana
+|        +--| (65)
+|        |  +----------------------------------------------------------CP128568.1_383246-383708_Lodderomyces_elongisporus_strain_NRRL_YB-4239
+|     +**| (59)
+|     |  +**MW284503.1_1-457_Candida_albicans_strain_CBS_562
+|  +**| (64)
+|  |  +**AB018037.1_1-449_Candida_albicans_multi_strain
++**| (79)
+   |              +**MH545916.1_1631-2129_Candida_dubliniensis_strain_CBS_7987
+   |           +**| (85)
+   |           |  +**FM992695.1_1865147-1865645_Candida_dubliniensis_CD36
+   |        +**| (89)
+   |        |  +**NR_119386.1_1-491_Candida_dubliniensis_CBS_7987
+   |     +--| (96)
+   |     |  +--MW284524.1_1-419_Candida_dubliniensis_strain_CBS_7987
+   |  +--| (94)
+   |  |  +**AB035589.1_9-486_Candida_dubliniensis_CBS_7987
+   +--| (66)
+      |     +--NR_151799.1_36-503_Candida_gigantensis_CBS_9896
+      |  +--| (55)
+      |  |  |                    +**KY102470.1_37-520_Candida_tropicalis_culture_CBS_94
+      |  |  |                 +**| (55)
+      |  |  |                 |  +**KU729064.1_6-489_Candida_tropicalis_strain_ATCC_750
+      |  |  |              +--| (97)
+      |  |  |              |  +--AF287910.1_47-520_Candida_tropicalis
+      |  |  |           +--| (88)
+      |  |  |           |  |  +**MK394120.1_1488-1979_Candida_sojae_strain_CBS_7871
+      |  |  |           |  +--| (99)
+      |  |  |           |     +**KJ722419.1_143-513_Candida_sojae_strain_CBS_7871
+      |  |  |        +--| (85)
+      |  |  |        |  |     +--NR_164020.1_4-484_Candida_kantuleensis_DMKU_XE11
+      |  |  |        |  |  +--| (87)
+      |  |  |        |  |  |  +--NR_111411.1_25-522_Candida_tetrigidarum_ATCC_MYA-4369
+      |  |  |        |  +--| (79)
+      |  |  |        |     |     +**MK394121.1_1488-1984_Candida_neerlandica_strain_CBS_434
+      |  |  |        |     |  +**| (45)
+      |  |  |        |     |  |  +**NR_136988.1_25-401_Candida_neerlandica_NRRL_Y-27057
+      |  |  |        |     +--| (100)
+      |  |  |        |        +**KY102226.1_38-414_Candida_neerlandica_culture_CBS_434
+      |  |  |     +--| (94)
+      |  |  |     |  |           +**KY102176.1_35-515_Candida_labiduridarum_culture_CBS_10452
+      |  |  |     |  |        +**| (28)
+      |  |  |     |  |        |  +**EF658664.1_25-494_Candida_labiduridarum_strain_NRRL_Y-27940
+      |  |  |     |  |     +--| (100)
+      |  |  |     |  |     |  +**NR_111410.1_25-505_Candida_labiduridarum_ATCC_MYA-4368
+      |  |  |     |  |  +--| (94)
+      |  |  |     |  |  |  +--NR_136989.1_25-492_Candida_frijolesensis_NRRL_Y-48060
+      |  |  |     |  +--| (74)
+      |  |  |     |     |  +--NR_151809.1_35-522_Candida_saraburiensis_CBS_11696
+      |  |  |     |     +--| (99)
+      |  |  |     |        |     +**MK394122.1_1489-1958_Candida_viswanathii_strain_CBS_4024
+      |  |  |     |        |  +**| (29)
+      |  |  |     |        |  |  +**NR_138345.1_27-496_Candida_viswanathii_ATCC_22981
+      |  |  |     |        +--| (100)
+      |  |  |     |           +--KY102515.1_37-504_Candida_viswanathii_culture_CBS_4024
+      |  |  |  +--| (92)
+      |  |  |  |  |  +--NR_173269.1_4-482_Candida_yunnanensis_NYNU_17948
+      |  |  |  |  +--| (98)
+      |  |  |  |     |  +**KJ722417.1_182-595_Candida_maltosa_strain_CBS_5611
+      |  |  |  |     +--| (99)
+      |  |  |  |        |  +**NR_138346.1_93-459_Candida_maltosa_CBS_5611
+      |  |  |  |        +**| (52)
+      |  |  |  |           +**KJ722418.1_167-533_Candida_maltosa_strain_CBS_5611
+      |  |  +--| (59)
+      |  |     |        +**NR_111593.1_76-538_Lodderomyces_elongisporus_ATCC_11503
+      |  |     |     +**| (71)
+      |  |     |     |  +**GU319980.1_38-500_Lodderomyces_elongisporus_strain_ATCC_11503
+      |  |     |  +--| (100)
+      |  |     |  |  +--MK394128.1_1539-2001_Lodderomyces_elongisporus_strain_CBS_2605
+      |  |     +--| (78)
+      |  |        +--NR_132875.1_36-507_Lodderomyces_cetoniae_CBS_12463
+      +--| (51)
+         |  +**KY102007.1_34-482_Candida_buenavistaensis_culture_CBS_9895
+         +--| (99)
+            +--NR_111409.1_25-473_Candida_buenavistaensis_ATCC_MYA-4365
+
+Tree in newick format:
+
+(HQ876043.1_Candida_albicans_strain_ATCC_18804:0.0000009982,JN882343.1_4-498_Candida_albicans_strain_NRRL_Y-12983:0.0000009982,(((((NR_138276.1_19-512_Candida_africana_CBS_8781:0.0000009982,AY342214.1_19-512_Candida_africana:0.0000009982)95:0.0000026526,CP128568.1_383246-383708_Lodderomyces_elongisporus_strain_NRRL_YB-4239:6.5033574613)65:0.0067864446,MW284503.1_1-457_Candida_albicans_strain_CBS_562:0.0000009982)59:0.0000020570,AB018037.1_1-449_Candida_albicans_multi_strain:0.0000009982)64:0.0000009982,(((((MH545916.1_1631-2129_Candida_dubliniensis_strain_CBS_7987:0.0000009982,FM992695.1_1865147-1865645_Candida_dubliniensis_CD36:0.0000009982)85:0.0000009982,NR_119386.1_1-491_Candida_dubliniensis_CBS_7987:0.0000009982)89:0.0000009982,MW284524.1_1-419_Candida_dubliniensis_strain_CBS_7987:0.0145999978)96:0.0068871116,AB035589.1_9-486_Candida_dubliniensis_CBS_7987:0.0000022990)94:0.0772065432,((NR_151799.1_36-503_Candida_gigantensis_CBS_9896:0.1074211532,(((((((KY102470.1_37-520_Candida_tropicalis_culture_CBS_94:0.0000009982,KU729064.1_6-489_Candida_tropicalis_strain_ATCC_750:0.0000009982)55:0.0000009982,AF287910.1_47-520_Candida_tropicalis:0.0386565596)97:0.0258934332,(MK394120.1_1488-1979_Candida_sojae_strain_CBS_7871:0.0000009982,KJ722419.1_143-513_Candida_sojae_strain_CBS_7871:0.0000009982)99:0.0352011469)88:0.0291101313,((NR_164020.1_4-484_Candida_kantuleensis_DMKU_XE11:0.1050241276,NR_111411.1_25-522_Candida_tetrigidarum_ATCC_MYA-4369:0.1659745120)87:0.0158900348,((MK394121.1_1488-1984_Candida_neerlandica_strain_CBS_434:0.0000009982,NR_136988.1_25-401_Candida_neerlandica_NRRL_Y-27057:0.0000009982)45:0.0000020438,KY102226.1_38-414_Candida_neerlandica_culture_CBS_434:0.0000009982)100:0.0716746741)79:0.0195847644)85:0.0201405809,((((KY102176.1_35-515_Candida_labiduridarum_culture_CBS_10452:0.0000009982,EF658664.1_25-494_Candida_labiduridarum_strain_NRRL_Y-27940:0.0000009982)28:0.0000009982,NR_111410.1_25-505_Candida_labiduridarum_ATCC_MYA-4368:0.0000009982)100:0.0652243675,NR_136989.1_25-492_Candida_frijolesensis_NRRL_Y-48060:0.0359930598)94:0.0215173377,(NR_151809.1_35-522_Candida_saraburiensis_CBS_11696:0.1062995424,((MK394122.1_1489-1958_Candida_viswanathii_strain_CBS_4024:0.0000009982,NR_138345.1_27-496_Candida_viswanathii_ATCC_22981:0.0000009982)29:0.0000009982,KY102515.1_37-504_Candida_viswanathii_culture_CBS_4024:0.0052656093)100:0.0797919945)99:0.0632253569)74:0.0198847948)94:0.0608451323,(NR_173269.1_4-482_Candida_yunnanensis_NYNU_17948:0.1134161420,(KJ722417.1_182-595_Candida_maltosa_strain_CBS_5611:0.0000009982,(NR_138346.1_93-459_Candida_maltosa_CBS_5611:0.0000009982,KJ722418.1_167-533_Candida_maltosa_strain_CBS_5611:0.0000009982)52:0.0000009982)99:0.0829921534)98:0.0935462842)92:0.0436232165,(((NR_111593.1_76-538_Lodderomyces_elongisporus_ATCC_11503:0.0000009982,GU319980.1_38-500_Lodderomyces_elongisporus_strain_ATCC_11503:0.0000009982)71:0.0000009982,MK394128.1_1539-2001_Lodderomyces_elongisporus_strain_CBS_2605:0.0023081236)100:0.1692557711,NR_132875.1_36-507_Lodderomyces_cetoniae_CBS_12463:0.1267746927)78:0.0678047625)59:0.0084978920)55:0.0273711444,(KY102007.1_34-482_Candida_buenavistaensis_culture_CBS_9895:0.0000009982,NR_111409.1_25-473_Candida_buenavistaensis_ATCC_MYA-4365:0.0031587659)99:0.2080463634)51:0.0288219353)66:0.0150456256)79:0.0000009982);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -4113.211874
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++**HQ876043.1_Candida_albicans_strain_ATCC_18804
+|
+|  +--JN882343.1_4-498_Candida_albicans_strain_NRRL_Y-12983
++--|
+|  |              +--NR_138276.1_19-512_Candida_africana_CBS_8781
+|  |           +--| (95)
+|  |           |  +--AY342214.1_19-512_Candida_africana
+|  |        +--| (65)
+|  |        |  +----------------------------------------------------------CP128568.1_383246-383708_Lodderomyces_elongisporus_strain_NRRL_YB-4239
+|  |     +--| (59)
+|  |     |  +--MW284503.1_1-457_Candida_albicans_strain_CBS_562
+|  |  +--| (64)
+|  |  |  +--AB018037.1_1-449_Candida_albicans_multi_strain
+|  +--| (79)
+|     |                 +**MH545916.1_1631-2129_Candida_dubliniensis_strain_CBS_7987
+|     |              +--|
+|     |              |  +**AJ249485.1_23-521_Candida_dubliniensis_CD36
+|     |           +--| (85)
+|     |           |  +--FM992695.1_1865147-1865645_Candida_dubliniensis_CD36
+|     |        +--| (89)
+|     |        |  +--NR_119386.1_1-491_Candida_dubliniensis_CBS_7987
+|     |     +--| (96)
+|     |     |  +--MW284524.1_1-419_Candida_dubliniensis_strain_CBS_7987
+|     |  +--| (94)
+|     |  |  +--AB035589.1_9-486_Candida_dubliniensis_CBS_7987
+|     +--| (66)
+|        |     +--NR_151799.1_36-503_Candida_gigantensis_CBS_9896
+|        |  +--| (55)
+|        |  |  |                       +**KY102470.1_37-520_Candida_tropicalis_culture_CBS_94
+|        |  |  |                    +--|
+|        |  |  |                    |  +**NR_111250.1_4-487_Candida_tropicalis_CBS_94
+|        |  |  |                 +--| (55)
+|        |  |  |                 |  +--KU729064.1_6-489_Candida_tropicalis_strain_ATCC_750
+|        |  |  |              +--| (97)
+|        |  |  |              |  +--AF287910.1_47-520_Candida_tropicalis
+|        |  |  |           +--| (88)
+|        |  |  |           |  |  +--MK394120.1_1488-1979_Candida_sojae_strain_CBS_7871
+|        |  |  |           |  +--| (99)
+|        |  |  |           |     +--KJ722419.1_143-513_Candida_sojae_strain_CBS_7871
+|        |  |  |        +--| (85)
+|        |  |  |        |  |     +--NR_164020.1_4-484_Candida_kantuleensis_DMKU_XE11
+|        |  |  |        |  |  +--| (87)
+|        |  |  |        |  |  |  +--NR_111411.1_25-522_Candida_tetrigidarum_ATCC_MYA-4369
+|        |  |  |        |  +--| (79)
+|        |  |  |        |     |     +--MK394121.1_1488-1984_Candida_neerlandica_strain_CBS_434
+|        |  |  |        |     |  +--| (54)
+|        |  |  |        |     |  |  +--KY102226.1_38-414_Candida_neerlandica_culture_CBS_434
+|        |  |  |        |     +--| (100)
+|        |  |  |        |        +--NR_136988.1_25-401_Candida_neerlandica_NRRL_Y-27057
+|        |  |  |     +--| (94)
+|        |  |  |     |  |           +--KY102176.1_35-515_Candida_labiduridarum_culture_CBS_10452
+|        |  |  |     |  |        +--| (58)
+|        |  |  |     |  |        |  +--NR_111410.1_25-505_Candida_labiduridarum_ATCC_MYA-4368
+|        |  |  |     |  |     +--| (100)
+|        |  |  |     |  |     |  +--EF658664.1_25-494_Candida_labiduridarum_strain_NRRL_Y-27940
+|        |  |  |     |  |  +--| (94)
+|        |  |  |     |  |  |  +--NR_136989.1_25-492_Candida_frijolesensis_NRRL_Y-48060
+|        |  |  |     |  +--| (74)
+|        |  |  |     |     |  +--NR_151809.1_35-522_Candida_saraburiensis_CBS_11696
+|        |  |  |     |     +--| (99)
+|        |  |  |     |        |     +--MK394122.1_1489-1958_Candida_viswanathii_strain_CBS_4024
+|        |  |  |     |        |  +--| (41)
+|        |  |  |     |        |  |  +--KY102515.1_37-504_Candida_viswanathii_culture_CBS_4024
+|        |  |  |     |        +--| (100)
+|        |  |  |     |           +--NR_138345.1_27-496_Candida_viswanathii_ATCC_22981
+|        |  |  |  +--| (92)
+|        |  |  |  |  |  +--NR_173269.1_4-482_Candida_yunnanensis_NYNU_17948
+|        |  |  |  |  +--| (98)
+|        |  |  |  |     |  +--KJ722417.1_182-595_Candida_maltosa_strain_CBS_5611
+|        |  |  |  |     +--| (99)
+|        |  |  |  |        |  +--NR_138346.1_93-459_Candida_maltosa_CBS_5611
+|        |  |  |  |        +--| (52)
+|        |  |  |  |           +--KJ722418.1_167-533_Candida_maltosa_strain_CBS_5611
+|        |  |  +--| (59)
+|        |  |     |           +**NR_111593.1_76-538_Lodderomyces_elongisporus_ATCC_11503
+|        |  |     |        +--|
+|        |  |     |        |  +**AY391848.1_87-549_Lodderomyces_elongisporus_strain_CBS_2605
+|        |  |     |     +--| (71)
+|        |  |     |     |  +--GU319980.1_38-500_Lodderomyces_elongisporus_strain_ATCC_11503
+|        |  |     |  +--| (100)
+|        |  |     |  |  +--MK394128.1_1539-2001_Lodderomyces_elongisporus_strain_CBS_2605
+|        |  |     +--| (78)
+|        |  |        +--NR_132875.1_36-507_Lodderomyces_cetoniae_CBS_12463
+|        +--| (51)
+|           |  +--KY102007.1_34-482_Candida_buenavistaensis_culture_CBS_9895
+|           +--| (99)
+|              +--NR_111409.1_25-473_Candida_buenavistaensis_ATCC_MYA-4365
+|
++**NR_125332.1_1-495_Candida_albicans_CBS_562
+
+
+Consensus tree in newick format: 
+
+(HQ876043.1_Candida_albicans_strain_ATCC_18804:0.0000000000,(JN882343.1_4-498_Candida_albicans_strain_NRRL_Y-12983:0.0000025982,(((((NR_138276.1_19-512_Candida_africana_CBS_8781:0.0000025982,AY342214.1_19-512_Candida_africana:0.0000025982)95:0.0037084044,CP128568.1_383246-383708_Lodderomyces_elongisporus_strain_NRRL_YB-4239:6.5035200020)65:0.0030758364,MW284503.1_1-457_Candida_albicans_strain_CBS_562:0.0000025982)59:0.0000023347,AB018037.1_1-449_Candida_albicans_multi_strain:0.0000025982)64:0.0000023347,((((((MH545916.1_1631-2129_Candida_dubliniensis_strain_CBS_7987:0.0000000000,AJ249485.1_23-521_Candida_dubliniensis_CD36:0.0000000000):0.0000025982,FM992695.1_1865147-1865645_Candida_dubliniensis_CD36:0.0000025982)85:0.0000025982,NR_119386.1_1-491_Candida_dubliniensis_CBS_7987:0.0000025982)89:0.0000022935,MW284524.1_1-419_Candida_dubliniensis_strain_CBS_7987:0.0146002151)96:0.0068867124,AB035589.1_9-486_Candida_dubliniensis_CBS_7987:0.0000026023)94:0.0771980049,((NR_151799.1_36-503_Candida_gigantensis_CBS_9896:0.1073958820,((((((((KY102470.1_37-520_Candida_tropicalis_culture_CBS_94:0.0000000000,NR_111250.1_4-487_Candida_tropicalis_CBS_94:0.0000000000):0.0000025982,KU729064.1_6-489_Candida_tropicalis_strain_ATCC_750:0.0000025982)55:0.0000026023,AF287910.1_47-520_Candida_tropicalis:0.0386711865)97:0.0258810133,(MK394120.1_1488-1979_Candida_sojae_strain_CBS_7871:0.0000024180,KJ722419.1_143-513_Candida_sojae_strain_CBS_7871:0.0000025982)99:0.0352307430)88:0.0290851317,((NR_164020.1_4-484_Candida_kantuleensis_DMKU_XE11:0.1050653695,NR_111411.1_25-522_Candida_tetrigidarum_ATCC_MYA-4369:0.1660364692)87:0.0158854084,((MK394121.1_1488-1984_Candida_neerlandica_strain_CBS_434:0.0000028693,KY102226.1_38-414_Candida_neerlandica_culture_CBS_434:0.0000025982)54:0.0000028693,NR_136988.1_25-401_Candida_neerlandica_NRRL_Y-27057:0.0000025982)100:0.0717089298)79:0.0195776779)85:0.0201433719,((((KY102176.1_35-515_Candida_labiduridarum_culture_CBS_10452:0.0000025982,NR_111410.1_25-505_Candida_labiduridarum_ATCC_MYA-4368:0.0000025982)58:0.0000025982,EF658664.1_25-494_Candida_labiduridarum_strain_NRRL_Y-27940:0.0000025982)100:0.0652457495,NR_136989.1_25-492_Candida_frijolesensis_NRRL_Y-48060:0.0359965004)94:0.0215207151,(NR_151809.1_35-522_Candida_saraburiensis_CBS_11696:0.1063357723,((MK394122.1_1489-1958_Candida_viswanathii_strain_CBS_4024:0.0000025982,KY102515.1_37-504_Candida_viswanathii_culture_CBS_4024:0.0052667480)41:0.0000025982,NR_138345.1_27-496_Candida_viswanathii_ATCC_22981:0.0000025982)100:0.0798064501)99:0.0632133462)74:0.0198564821)94:0.0608442769,(NR_173269.1_4-482_Candida_yunnanensis_NYNU_17948:0.1134487583,(KJ722417.1_182-595_Candida_maltosa_strain_CBS_5611:0.0000026242,(NR_138346.1_93-459_Candida_maltosa_CBS_5611:0.0000025982,KJ722418.1_167-533_Candida_maltosa_strain_CBS_5611:0.0000025982)52:0.0000025982)99:0.0830247228)98:0.0934988994)92:0.0435982644,((((NR_111593.1_76-538_Lodderomyces_elongisporus_ATCC_11503:0.0000000000,AY391848.1_87-549_Lodderomyces_elongisporus_strain_CBS_2605:0.0000000000):0.0000025982,GU319980.1_38-500_Lodderomyces_elongisporus_strain_ATCC_11503:0.0000025982)71:0.0000025982,MK394128.1_1539-2001_Lodderomyces_elongisporus_strain_CBS_2605:0.0023084843)100:0.1693000731,NR_132875.1_36-507_Lodderomyces_cetoniae_CBS_12463:0.1268085538)78:0.0677585043)59:0.0084950022)55:0.0273961675,(KY102007.1_34-482_Candida_buenavistaensis_culture_CBS_9895:0.0000025982,NR_111409.1_25-473_Candida_buenavistaensis_ATCC_MYA-4365:0.0031584051)99:0.2080619863)51:0.0288122623)66:0.0150463678)79:0.0000025982):0.0000025982,NR_125332.1_1-495_Candida_albicans_CBS_562:0.0000000000);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t C:\Users\Nishad\Desktop\IQTREE\Phylogenetic_Tree.treefile -m "TPM2u{2.178,3.3855}+F{0.276985,0.20776,0.200022,0.315233}+R2{0.687049,0.0867969,0.312951,3.00483}" --length 612
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s C:\iqtree-2.4.0-Windows\Phylogenetic_Tree_mini_Project_Alignment_fixed.nexus --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s C:\iqtree-2.4.0-Windows\Phylogenetic_Tree_mini_Project_Alignment_fixed.nexus --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Oct 02 15:22:34 2026
+Total CPU time used: 254.34375 seconds (0h:4m:14s)
+Total wall-clock time used: 79.029771 seconds (0h:1m:19s)
+
