@@ -1,0 +1,9 @@
+cff-version: 1.0.0
+title: "Phylogenetic Analysis of Candida albicans ITS Sequences"
+message: "If you use this repository, please cite it using the DOI."
+type: software
+authors:
+  - family-names: "Supugade"
+    given-names: "Nishad Sanjay"
+repository-code: "https://github.com/Nishad-Supugade/Candida-albicans-ITS-phylogenetic-analysis"
+license: MIT
